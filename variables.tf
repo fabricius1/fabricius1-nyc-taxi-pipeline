@@ -4,17 +4,7 @@ variable "location" {
   default     = "eastus"
 }
 
-variable "adlsg2_key" {
-  type      = string
-  sensitive = true
-}
-
-variable "password" {
-  type      = string
-  sensitive = true
-}
-
-variable "admin" {
+variable "tenant_id" {
   type      = string
   sensitive = true
 }
@@ -24,12 +14,27 @@ variable "object_id" {
   sensitive = true
 }
 
-variable "tenant_id" {
+variable "adlsg2_name" {
+  type = string
+}
+
+variable "adlsg2_key" {
   type      = string
   sensitive = true
 }
 
-variable "synapse_workspace_name" {
+variable "adminuser" {
   type      = string
   sensitive = true
+}
+
+variable "password" {
+  type      = string
+  sensitive = true
+}
+
+
+
+variable "synapse_workspace_name" {
+  type = string
 }

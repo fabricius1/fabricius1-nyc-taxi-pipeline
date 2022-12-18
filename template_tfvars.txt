@@ -1,0 +1,10 @@
+adlsg2_name            = ""
+synapse_workspace_name = ""
+
+object_id              = ""
+tenant_id              = ""
+
+adminuser              = ""
+password               = ""
+
+adlsg2_key             = "xxx"

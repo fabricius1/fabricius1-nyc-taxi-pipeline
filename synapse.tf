@@ -3,7 +3,7 @@ resource "azurerm_synapse_workspace" "synapse_workspace" {
   resource_group_name                  = azurerm_resource_group.rg.name
   location                             = var.location
   storage_data_lake_gen2_filesystem_id = azurerm_storage_data_lake_gen2_filesystem.landzones["raw"].id
-  sql_administrator_login              = var.admin
+  sql_administrator_login              = var.adminuser
   sql_administrator_login_password     = var.password
   managed_resource_group_name          = "mrg-${var.synapse_workspace_name}"
 
