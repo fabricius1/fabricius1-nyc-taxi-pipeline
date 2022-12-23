@@ -1,10 +1,7 @@
-adlsg2_name            = ""
-synapse_workspace_name = ""
-
-object_id              = ""
-tenant_id              = ""
-
-adminuser              = ""
-password               = ""
-
+adlsg2_name            = "change"
+synapse_workspace_name = "change"
+object_id              = "14767750-2e08-4eae-b866-57ddf3297d76"
+tenant_id              = "14767750-2e08-4eae-b866-57ddf3297d76"
+adminuser              = "change"
+password               = "change"
 adlsg2_key             = "xxx"
