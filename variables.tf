@@ -33,8 +33,6 @@ variable "password" {
   sensitive = true
 }
 
-
-
 variable "synapse_workspace_name" {
   type = string
 }
