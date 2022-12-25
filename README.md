@@ -50,7 +50,7 @@ Below there are some extra Azure CLI commands. The first two commands will help 
 # check if a storage account name is available
 az storage account check-name --name "your-adls2-name"
 
-# check if a Azure synapse analytics workspace name is available
+# check if an Azure synapse analytics workspace name is available
 az synapse workspace check-name --name "your_synapse_name"
 
 # get current user object id
